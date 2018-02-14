@@ -1,0 +1,59 @@
+<html>
+<head>
+    
+    {{ partial "header.html" }}
+
+</head>
+<body>
+    <div class="container">
+
+        {{ partial "brand.html" }}
+
+        <div class="content">
+
+            {{ partial "navigation.html" }}
+
+            <main>
+
+                <article>
+                    <h1>{{ .Title }}</h1>
+
+                    <p class="info">
+                            <i class="fa fa-calendar-o fa-fw" aria-hidden="true"></i> {{ .Date.Format "January 2, 2006" }}
+                            <br/>
+                            <i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> {{ .ReadingTime }} minutes
+                            <br/>
+                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i> 0 comments
+                    </p>
+
+                    <p class="intro">
+                        {{ .Summary | plainify }}
+                    </p>
+
+                    {{ $body := replace .Content .Summary "" }}
+                    {{ $body | emojify | safeHTML }}
+
+                </article>
+                
+            </main>
+
+        </div>
+
+        <div class="pagination">
+            {{ if .Page.Next }}
+            <a href="{{ .Page.Next.URL }}" class="button button-prev">&laquo; {{ .Page.Next.Title }}</a>
+            {{ else }}
+            <span class="button button-prev button-disabled">&laquo; No earlier posts</a></span>
+            {{ end }}
+            {{ if .Page.Prev }}
+                <a href="{{ .Page.Prev.URL }}" class="button button-next">{{ .Page.Prev.Title }} &raquo;</a>
+            {{ else }}
+            <span class="button button-next button-disabled">No newer posts  &raquo;</a></span>
+            {{ end }}
+        </div>
+        
+        {{ partial "footer.html" }}
+
+    </div>
+</body>
+</html>

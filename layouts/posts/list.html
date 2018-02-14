@@ -1,0 +1,40 @@
+<html>
+    <head>
+        
+        {{ partial "header.html" }}
+    
+    </head>
+    <body>
+        <div class="container">
+    
+            {{ partial "brand.html" }}
+    
+            <div class="content">
+    
+                {{ partial "navigation.html" }}
+    
+                <main>
+                    
+                    <div class="timeline">
+                        
+                        {{ range .Pages }}
+
+                        <div class="entry">
+                            <h2><a href="{{ .URL }}">{{ .Title }}</a></h2>
+                            <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+                            <p class="excerpt">{{ .Summary }}</p>
+                        </div>
+
+                        {{ end }}
+    
+                    </div>
+                    
+                </main>
+                
+            </div>
+    
+            {{ partial "footer.html" }}
+    
+        </div>
+    </body>
+    </html>

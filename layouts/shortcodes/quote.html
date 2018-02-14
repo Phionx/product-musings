@@ -1,0 +1,16 @@
+{{ $text := .Inner }}
+{{ $link := .Page.Permalink }}
+
+<div>
+    {{ if .Get 0 }}
+    <blockquote class="pull pull-{{ .Get 0 }}">
+    {{ else }}
+    <blockquote class="pull pull-right">
+    {{ end }}
+        <a href="https://twitter.com/intent/tweet?text={{ $text }}&url={{ $link }}" target="_blank">
+        {{ .Inner | plainify }}
+        </a>
+        <br/>
+        <a class="tweet" href="https://twitter.com/intent/tweet?text={{ $text }}&url={{ $link }}" target="_blank"><i class="fa fa-twitter"></i>click to tweet</a>
+    </blockquote>
+</div>

@@ -1,0 +1,30 @@
+<html>
+<head>
+    
+    {{ partial "header.html" }}
+
+</head>
+<body>
+    <div class="container">
+
+        {{ partial "brand.html" }}
+
+        <div class="content">
+
+            {{ partial "navigation.html" }}
+
+            <main>
+                
+                {{ .Content }}
+                
+            </main>
+            
+        </div>
+
+        {{ partial "footer.html" }}
+
+    </div>
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>
