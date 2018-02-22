@@ -4,3 +4,9 @@ build:
   steps:
     - arjen/hugo-build:
         version: "HEAD"
+    - s3sync:
+        key-id: $KEY
+        key-secret: $SECRET
+        bucket-url: $BUCKET
+        source-dir: $SOURCE
+        opts: --acl-public
