@@ -4,7 +4,7 @@ build:
   steps:
     - arjen/hugo-build:
         version: "HEAD"
-    - arjen/s3sync@2.0.4:
+    - s3sync:
         key-id: $KEY
         key-secret: $SECRET
         bucket-url: s3://jiridj.be
