@@ -1,1 +1,0 @@
-This is where the Staticman comments will be created as Hugo data files. 
