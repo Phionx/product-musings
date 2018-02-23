@@ -9,4 +9,4 @@ build:
         key-secret: $SECRET
         bucket-url: s3://jiridj.be
         source-dir: public
-        opts: -d
+        opts: --guess-mime-type --cf-invalidate
