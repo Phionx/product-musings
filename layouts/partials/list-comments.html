@@ -1,11 +1,11 @@
 {{ $comments := readDir "data/comments" }}
     {{ $.Scratch.Add "hasComments" 0 }}
-    {{ $post := .URL }}
+    {{ $entryId := .URL }}
 
   {{ range $comments }}
-    {{ if eq .Name $post }}
+    {{ if eq .Name $entryId }}
       {{ $.Scratch.Add "hasComments" 1 }}
-      {{ range $index, $comments := (index $.Site.Data.comments $post ) }}
+      {{ range $index, $comments := (index $.Site.Data.comments $entryId ) }}
 <blockquote>
     <p>{{ .body | markdownify }}</p>
     <cite>
