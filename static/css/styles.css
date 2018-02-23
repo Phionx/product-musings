@@ -365,4 +365,26 @@ main {
     nav {
         display: none;
     }
+
+    .pagination {
+        display: none;
+    }
+
+    .tweet {
+        display: none;
+    }
+
+    .pull {
+        width: 300px;
+    }
+    
+    .pull-right {
+        float: right;
+        margin: 0 0px 20px 20px;
+    }
+    
+    .pull-left {
+        float: left;
+        margin: 0 20px 20px 0px;
+    }
 }
