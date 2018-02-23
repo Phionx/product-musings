@@ -4,8 +4,8 @@ comments:
 
   allowedOrigins: ["localhost", "jiridj.be"]
 
-  allowedFields: ["name", "email", "url", "message"]
-  requiredFields: ["name", "email", "message"]
+  allowedFields: ["name", "email", "url", "comment"]
+  requiredFields: ["name", "email", "comment"]
 
   branch: "master"
   format: "yaml"
@@ -13,7 +13,7 @@ comments:
 
   commitMessage: "Add comment via Staticman"
 
-  filename: "entry{@timestamp}"
+  filename: "comment{@timestamp}"
 
   generatedFields:
     date:
