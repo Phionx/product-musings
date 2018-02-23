@@ -1,0 +1,35 @@
+<html>
+    <head>
+        
+        {{ partial "header.html" }}
+    
+    </head>
+    <body>
+        <div class="container">
+    
+            {{ partial "brand.html" }}
+    
+            <div class="content">
+    
+                {{ partial "navigation.html" }}
+    
+                <main>
+                    
+                    <h1>Tags</h1>
+
+                    <ul>
+                        {{ $data := .Data }}
+                        {{ range $key, $value := .Data.Terms.Alphabetical }}
+                        <li><a href="{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }}) </li>
+                        {{ end }}
+                    </ul>
+                    
+                </main>
+                
+            </div>
+    
+            {{ partial "footer.html" }}
+    
+        </div>
+    </body>
+</html>

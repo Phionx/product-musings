@@ -23,11 +23,6 @@
                         <br/>
                         <i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> {{ .ReadingTime }} minutes
                         <br/>
-                        <i class="fa fa-tags fa-fw" aria-hidden="true"></i>
-                        {{ range .Params.tags }}
-                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-                        {{ end }}
-                        <br/>
                         <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i> 0 comments
                     </p>
 
@@ -37,6 +32,13 @@
 
                     {{ $body := replace .Content .Summary "" }}
                     {{ $body | emojify | safeHTML }}
+
+                    <p class="tags">
+                        <i class="fa fa-tags fa-fw" aria-hidden="true"></i> &nbsp;
+                        {{ range .Params.tags }}
+                        <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> &nbsp;
+                        {{ end }}
+                    </p>
 
                 </article>
                 

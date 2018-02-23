@@ -167,7 +167,7 @@ h3 {
 
 p.info {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 11px;
     line-height: 1.6;
     margin-top: -10px;
 }
@@ -176,6 +176,10 @@ p.intro {
     font-size: 22px;
     font-weight: 300;
     line-height: 1.3;
+}
+
+p.tags a {
+    font-size: 14px;
 }
 
 blockquote {
