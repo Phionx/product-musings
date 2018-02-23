@@ -19,11 +19,16 @@
                     <h1>{{ .Title }}</h1>
 
                     <p class="info">
-                            <i class="fa fa-calendar-o fa-fw" aria-hidden="true"></i> {{ .Date.Format "January 2, 2006" }}
-                            <br/>
-                            <i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> {{ .ReadingTime }} minutes
-                            <br/>
-                            <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i> 0 comments
+                        <i class="fa fa-calendar-o fa-fw" aria-hidden="true"></i> {{ .Date.Format "January 2, 2006" }}
+                        <br/>
+                        <i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> {{ .ReadingTime }} minutes
+                        <br/>
+                        <i class="fa fa-tags fa-fw" aria-hidden="true"></i>
+                        {{ range .Params.tags }}
+                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                        {{ end }}
+                        <br/>
+                        <i class="fa fa-comments-o fa-fw" aria-hidden="true"></i> 0 comments
                     </p>
 
                     <p class="intro">

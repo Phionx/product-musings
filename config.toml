@@ -9,8 +9,13 @@ languageCode = "en-us"
 
 enableEmoji = true
 
+preserveTaxonomyNames = true
+
 [permaLinks]
   post = "/:section/:slug/"
+
+[taxonomies]
+   tag = "tags"
 
 [blackfriday]
   plainIDAnchors = true

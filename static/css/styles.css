@@ -125,6 +125,12 @@ nav .share {
     z-index: 99;
 }
 
+/* Tags styling */
+
+.tags i {
+    color: #189ad3;
+}
+
 /* Article styling */
 
 p, ul, ol, h1, h2 {
