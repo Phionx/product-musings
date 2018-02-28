@@ -2,7 +2,7 @@ title = "Think Product by Jiri"
 author = "Jiri De Jagere"
 copyright = "Copyright (c) 2017 Jiri De Jagere. All Rights Reserved."
 
-baseURL = "https://jiridj.be"
+baseURL = "https://jiridj.be/"
 relativeURLs = true
 
 languageCode = "en-us"
