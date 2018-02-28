@@ -241,8 +241,10 @@ blockquote {
     float: right;
 }
 
-/* Tags styling */
-
+/* Image styling */
+p.image {
+    padding: 12px;
+}
 
 /* Footer styling */
 
