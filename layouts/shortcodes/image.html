@@ -1,6 +1,6 @@
 {{ $link := .Page.URL }}
 <p class="image">
-<a href="/img/{{ $link }}{{ .Get 0 }}.full.jpg" class="progressive replace">
-    <img src="/img/{{ $link }}{{ .Get 0 }}.tiny.jpg" class="preview" alt="image" />
+<a href="{{ .Site.BaseURL }}img{{ $link }}{{ .Get 0 }}.full.jpg" class="progressive replace">
+    <img src="{{ .Site.BaseURL }}img{{ $link }}{{ .Get 0 }}.tiny.jpg" class="preview" alt="image" />
 </a>
 </p>
