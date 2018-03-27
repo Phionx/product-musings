@@ -2,9 +2,9 @@
 
 I’m Jiri. My sanity requires coffee, mountains, sports and fiddling with tech. **I love Annelies, Janne, Sam, Mitte and Wietse!**
 
-Long ago I studied to become a software engineer, but today I [lead a team of product managers](https://be.linkedin.com/in/jiridejagere). 
+Long ago I started my career as a software engineer, but today I [lead a team of product managers](https://be.linkedin.com/in/jiridejagere). 
 
-As a product manager you get to work with many people from different backgrounds and industries. Some are colleagues. Some are customers. **Some understand technology. Many don’t.**
+Product Management is really interesting and really challenging! You get to work with many people from different backgrounds and industries. Some are colleagues. Some are customers. **Some understand technology. Many don’t.**
 
 Designing **elegant, commercially viable solutions for complex problems** is how I get my professional kicks. I work on a daily basis with product managers, software architects, support engineers, sales reps and customers to:
 

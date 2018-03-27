@@ -4,6 +4,31 @@
 
 <!-- About this site -->
 <meta name="author" content="Jiri De Jagere">
+{{ if .Page.IsPage }}
+<!-- For Google --> 
+<meta name="title" content="{{ .Title }}">
+<meta name="description" content="{{ .Summary }}">
+
+<!-- For Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JiriDJ">
+<meta name="twitter:creator" content="@JiriDJ">
+
+<!-- Open Graph meta tags -->
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ .Summary }}" />
+{{ if isset .Params "image" }}
+<meta property="og:image" content="{{ .Site.BaseURL }}img{{ .Page.URL }}{{ .Params.image }}.full.jpg" />
+{{ end }}
+{{ else }}
+<meta name="title" content="Product musings by Jiri De Jagere">
+<meta name="description" content="Product manager at one of the largest privately owned software companies in the US. I’m an expert in product strategy and technology architecture. This blog is a collection of personal experiences and opinions.">
+
+<meta name="twitter:site" content="@JiriDJ">
+<meta name="twitter:creator" content="@JiriDJ">
+{{ end }}
 
 <!-- Stylesheet definitions -->
 <link rel="stylesheet"
