@@ -254,6 +254,11 @@ footer {
     font-size: 12px;
 }
 
+/* Comments styling */
+.Comments__attribution--iGgLN {
+    display: none;
+}
+
 /* Flexbox layout */
 
 .container {

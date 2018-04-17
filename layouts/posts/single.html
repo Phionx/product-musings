@@ -57,10 +57,21 @@
             {{ end }}
         </div>
         
+        
+        {{ if .Page.Params.comments }}
+            {{ partial "comments.html" .}}
+        {{ end }}
+
         {{ partial "footer.html" }}
 
     </div>
 
     <script src="/js/progressive-image.min.js"></script>
+    {{ if .Page.Params.comments }} 
+    <script async src="https://just-comments.com/w.js"></script>
+    {{ if .Site.Params.reCaptcha }}
+        <script src='https://www.google.com/recaptcha/api.js?onload=jcOnRecaptchaLoad&render=explicit' async defer></script>
+    {{ end }}
+    {{ end }}
 </body>
 </html>

@@ -20,3 +20,7 @@ preserveTaxonomyNames = true
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
+
+[params]
+  justComments = "e210eda4-2303-4680-a514-0ca9365f63d1"
+  reCaptcha = false
