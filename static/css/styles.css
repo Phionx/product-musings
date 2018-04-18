@@ -54,7 +54,7 @@ header {
 
 nav {
     order: -1;
-    margin-top: 32px;
+    margin-top: 10px;
 }
 
 nav ul {
@@ -241,6 +241,70 @@ blockquote {
     float: right;
 }
 
+/* Subscription styling */
+#subscribe {
+    padding-top: 24px;
+    font-size: 15px;
+}
+
+#subscribe h3 {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+#subscribe i {
+    color: #189ad3;
+}
+
+.subscribe-input {
+    padding-left: 64px;
+    width: calc(100% - 64px);
+}
+
+.subscribe-input-email {
+    border: 1px solid #dedede;
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 100%;
+    float: left;
+}
+
+.subscribe-input-button {
+    background-color: transparent;
+    width: 33.6px;
+    height: 33.6px;
+    right: 5px;
+    border: 0;
+    padding: 0;
+    margin-left: -38px;
+    margin-top: -2px;
+    font-size: 18px;
+    cursor: pointer;
+    float: left;
+}
+
+/* Comments styling */
+#comments {
+    padding-top: 24px;
+}
+
+#comments .jcCommentsHeader h3 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    color: #189ad3;
+}
+
+.jcSendCommentButton {
+    background-color: #189ad3 !important;
+    text-shadow: none !important;
+}
+
+.Comments__attribution--iGgLN {
+    display: none;
+}
+
 /* Image styling */
 p.image {
     padding: 12px;
@@ -252,11 +316,6 @@ footer {
     margin-bottom: 30px;
     margin-top: 30px;
     font-size: 12px;
-}
-
-/* Comments styling */
-.Comments__attribution--iGgLN {
-    display: none;
 }
 
 /* Flexbox layout */

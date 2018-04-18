@@ -31,12 +31,14 @@
                     {{ $body := replace .Content .Summary "" }}
                     {{ $body | emojify | safeHTML }}
 
+                    {{ if isset .Params "tags" }}
                     <p class="tags">
                         <i class="fa fa-tags fa-fw" aria-hidden="true"></i> &nbsp;
                         {{ range .Params.tags }}
                         <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> &nbsp;
                         {{ end }}
                     </p>
+                    {{ end }}
 
                 </article>
                 
@@ -57,9 +59,12 @@
             {{ end }}
         </div>
         
+        {{ if .Page.Params.subscribe }}
+            {{ partial "subscribe.html" . }}
+        {{ end }}
         
         {{ if .Page.Params.comments }}
-            {{ partial "comments.html" .}}
+            {{ partial "comments.html" . }}
         {{ end }}
 
         {{ partial "footer.html" }}
