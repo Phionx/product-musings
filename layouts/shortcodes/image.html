@@ -1,6 +1,11 @@
 {{ $link := .Page.URL }}
-<p class="image">
-<a href="{{ .Site.BaseURL }}img{{ $link }}{{ .Get 0 }}.full.jpg" class="progressive replace">
-    <img src="{{ .Site.BaseURL }}img{{ $link }}{{ .Get 0 }}.tiny.jpg" class="preview" alt="image" />
-</a>
-</p>
+{{ $name := .Get "name" }}
+{{ $alt := .Get "alt" }}
+{{ $caption := .Get "caption" }}
+
+<figure>
+    <a href="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.full.jpg" class="progressive replace">
+        <img src="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.tiny.jpg" class="preview" alt="{{ $alt }}" />
+    </a>
+    <figcaption>{{ $caption }}</figcaption>
+</figure>

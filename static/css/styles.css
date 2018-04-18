@@ -306,8 +306,13 @@ blockquote {
 }
 
 /* Image styling */
-p.image {
+figure {
     padding: 12px;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: center;
 }
 
 /* Footer styling */
