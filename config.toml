@@ -25,3 +25,4 @@ preserveTaxonomyNames = true
   justComments = "e210eda4-2303-4680-a514-0ca9365f63d1"
   reCaptcha = false
   mailchimp = "https://jiridj.us15.list-manage.com/subscribe/post?u=f5795efa14601a8b052d132b2&amp;id=8b8f55d288"
+  GA = "UA-60680954-5"
