@@ -6,10 +6,12 @@ build:
         version: "HEAD"
 
 test:
+  steps:
     - kyleboyle/html-proofer-test:
         version: "2.3.0"
 
 deploy:
+  steps:
     - samueldebruyn/minify
     - s3sync:
         key-id: $KEY
