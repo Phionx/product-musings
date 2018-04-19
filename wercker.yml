@@ -1,12 +1,17 @@
 # Using arjen/hugo-build -> https://github.com/ArjenSchwarz/wercker-step-hugo-build
 box: golang:latest
+
 build:
   steps:
     - arjen/hugo-build:
         version: "HEAD"
-    - samueldebruyn/minify
+
+test:
     - kyleboyle/html-proofer-test:
         version: "2.3.0"
+
+deploy:
+    - samueldebruyn/minify
     - s3sync:
         key-id: $KEY
         key-secret: $SECRET
