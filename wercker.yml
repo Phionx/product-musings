@@ -1,4 +1,4 @@
-box: golang:latest
+box: cibuilds/hugo:latest
 
 build:
   steps:
@@ -9,6 +9,7 @@ test:
   steps:
     - kyleboyle/html-proofer-test:
         version: "2.3.0"
+        basedir: "public"
 
 deploy:
   steps:
