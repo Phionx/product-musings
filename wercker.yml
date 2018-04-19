@@ -13,4 +13,4 @@ deploy:
         key-secret: $SECRET
         bucket-url: s3://jiridj.be
         source-dir: public
-        opts: --guess-mime-type --no-mime-magic --no-preserve --cf-invalidate
+        opts: --add-header=Cache-Control:max-age=86400 --guess-mime-type --no-mime-magic --no-preserve --cf-invalidate
