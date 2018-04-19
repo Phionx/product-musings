@@ -5,6 +5,8 @@ build:
     - arjen/hugo-build:
         version: "HEAD"
     - samueldebruyn/minify
+    - kyleboyle/html-proofer-test:
+        version: "2.3.0"
     - s3sync:
         key-id: $KEY
         key-secret: $SECRET
