@@ -1,15 +1,9 @@
-box: cibuilds/hugo:latest
+box: golang:latest
 
 build:
   steps:
     - arjen/hugo-build:
         version: "HEAD"
-
-test:
-  steps:
-    - kyleboyle/html-proofer-test:
-        version: "2.3.0"
-        basedir: "public"
 
 deploy:
   steps:
