@@ -1,5 +1,4 @@
 @import url(reset.css);
-@import url(progressive-images.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500');
 
 /* General styling */
@@ -462,4 +461,42 @@ main {
         float: left;
         margin: 0 20px 20px 0px;
     }
+}
+
+/* progressive image CSS */
+/* copied here instead of importing because the 
+   css file by itself is too small to be compressed 
+   by CloudFront */
+
+.progressive {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    outline: none;
+  }
+  
+.progressive img {
+display: block;
+width: 100%;
+max-width: none;
+height: auto;
+border: 0 none;
+}
+
+.progressive img.preview {
+filter: blur(2vw);
+transform: scale(1.05);
+}
+
+.progressive img.reveal {
+position: absolute;
+left: 0;
+top: 0;
+will-change: transform, opacity;
+animation: progressiveReveal 1s ease-out;
+}
+
+@keyframes progressiveReveal {
+    0% { transform: scale(1.05); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
 }
