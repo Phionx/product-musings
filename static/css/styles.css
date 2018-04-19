@@ -243,6 +243,7 @@ blockquote {
 }
 
 /* Subscription styling */
+
 #subscribe {
     padding-top: 24px;
     font-size: 15px;
@@ -285,6 +286,7 @@ blockquote {
 }
 
 /* Comments styling */
+
 #comments {
     padding-top: 24px;
 }
@@ -314,6 +316,7 @@ figure {
 figcaption {
     font-size: 12px;
     text-align: center;
+    padding-top: 12px;
 }
 
 /* Footer styling */
