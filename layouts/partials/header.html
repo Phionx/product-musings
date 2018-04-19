@@ -1,11 +1,12 @@
-<!-- Google Analytics integration -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60680954-5"></script>
+<!-- GA-Lite integration -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+(function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+;c.parentNode.insertBefore(a,c)
+})(window,document,"galite","script","https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js");
 
-  gtag('config', '{{ .Site.Params.GA }}');
+galite('create', '{{ .Site.Params.GA }}', 'auto');
+galite('send', 'pageview');
 </script>
 
 <!-- Momently integration // REMOVED UNTIL THEY FIX THEIR CACHE CONTROL POLICY -->
