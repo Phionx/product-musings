@@ -19,9 +19,9 @@
                     <h1>{{ .Title }}</h1>
 
                     <p class="info">
-                        <i class="fa fa-calendar-o fa-fw" aria-hidden="true"></i> {{ .Date.Format "January 2, 2006" }}
+                        <i class="far fa-calendar fa-fw" aria-hidden="true"></i> {{ .Date.Format "January 2, 2006" }}
                         <br/>
-                        <i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> {{ .ReadingTime }} minutes
+                        <i class="far fa-clock fa-fw" aria-hidden="true"></i> {{ .ReadingTime }} minutes
                     </p>
 
                     <p class="intro">
@@ -33,7 +33,7 @@
 
                     {{ if isset .Params "tags" }}
                     <p class="tags">
-                        <i class="fa fa-tags fa-fw" aria-hidden="true"></i> &nbsp;
+                        <span class="blue-fa"><i class="fas fa-tags fa-fw" aria-hidden="true"></i> &nbsp;</span>
                         {{ range .Params.tags }}
                         <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> &nbsp;
                         {{ end }}

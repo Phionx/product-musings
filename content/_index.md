@@ -17,8 +17,8 @@ But the best part is that there is always something new to learn. Always somethi
 
 If you want to get in touch, you can find me on:
 
- * <i class="fa fa-twitter fa-fw"></i>&nbsp;[Twitter](https://twitter.com/JiriDJ)
- * <i class="fa fa-linkedin fa-fw"></i>&nbsp;[Linkedin](https://be.linkedin.com/in/jiridejagere)
- * <i class="fa fa-medium fa-fw"></i>&nbsp;[Medium](https://medium.com/@jiridejagere)
+ * <span class="blue-fa"><i class="fab fa-twitter fa-fw"></i>&nbsp;</span>[Twitter](https://twitter.com/JiriDJ)
+ * <span class="blue-fa"><i class="fab fa-linkedin fa-fw"></i>&nbsp;</span>[Linkedin](https://be.linkedin.com/in/jiridejagere)
+ * <span class="blue-fa"><i class="fab fa-medium fa-fw"></i>&nbsp;</span>[Medium](https://medium.com/@jiridejagere)
 
 This blog is a collection of personal opinions and experiences.
