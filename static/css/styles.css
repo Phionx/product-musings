@@ -509,6 +509,14 @@ main {
         float: left;
         margin: 0 20px 20px 0px;
     }
+
+    #subscribe {
+        display: none;
+    }
+
+    #comments {
+        display: none;
+    }
 }
 
 /* progressive image CSS */
