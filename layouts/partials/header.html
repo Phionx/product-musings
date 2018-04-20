@@ -16,6 +16,8 @@ galite('send', 'pageview');
 <!-- About this site -->
 <meta name="author" content="Jiri De Jagere">
 {{ if .Page.IsPage }}
+<title>{{ .Title }}</title>
+
 <!-- For Google --> 
 <meta name="title" content="{{ .Title }}">
 <meta name="description" content="{{ .Summary }}">
@@ -34,6 +36,8 @@ galite('send', 'pageview');
 <meta property="og:image" content="{{ .Site.BaseURL }}img{{ .Page.URL }}{{ .Params.image }}.full.jpg" />
 {{ end }}
 {{ else }}
+<title>Product musings by Jiri De Jagere</title>
+
 <meta name="title" content="Product musings by Jiri De Jagere">
 <meta name="description" content="Product manager at one of the largest privately owned software companies in the US. I’m an expert in product strategy and technology architecture. This blog is a collection of personal experiences and opinions.">
 {{ end }}
