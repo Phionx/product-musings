@@ -9,9 +9,6 @@ galite('create', '{{ .Site.Params.GA }}', 'auto');
 galite('send', 'pageview');
 </script>
 
-<!-- Momently integration // REMOVED UNTIL THEY FIX THEIR CACHE CONTROL POLICY -->
-<!-- <script src="//s3-us-west-2.amazonaws.com/momently-static/loader/hXxUCgAPAQg_momently.js" name="momently-script"></script> -->
-
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -39,9 +36,6 @@ galite('send', 'pageview');
 {{ else }}
 <meta name="title" content="Product musings by Jiri De Jagere">
 <meta name="description" content="Product manager at one of the largest privately owned software companies in the US. I’m an expert in product strategy and technology architecture. This blog is a collection of personal experiences and opinions.">
-
-<meta name="twitter:site" content="@JiriDJ">
-<meta name="twitter:creator" content="@JiriDJ">
 {{ end }}
 
 <!-- Stylesheet definitions -->
