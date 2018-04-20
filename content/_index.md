@@ -15,4 +15,10 @@ Product Management is interesting and challenging! You get to work with many peo
 
 But the best part is that there is always something new to learn. Always something new to dig into. **You're never done, but never bored**! 
 
+If you want to get in touch, you can find me on:
+
+ * <i class="fa fa-twitter fa-fw"></i>&nbsp;[Twitter](https://twitter.com/JiriDJ)
+ * <i class="fa fa-linkedin fa-fw"></i>&nbsp;[Linkedin](https://be.linkedin.com/in/jiridejagere)
+ * <i class="fa fa-medium fa-fw"></i>&nbsp;[Medium](https://medium.com/@jiridejagere)
+
 This blog is a collection of personal opinions and experiences.
