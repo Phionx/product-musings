@@ -14,7 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. :wink:
 
-{{< image name="man" alt="picture of a man" caption="Credit to unsplash.io for the image.">}}
+{{< image name="man" alt="picture of a man" >}}
 
 ## Lorem Ipsum
 

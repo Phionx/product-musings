@@ -7,5 +7,9 @@
     <a href="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.full.jpg" class="progressive replace">
         <img src="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.tiny.jpg" class="preview" alt="{{ $alt }}" />
     </a>
+    {{ if $caption }}
     <figcaption>{{ $caption }}</figcaption>
+    {{ else }}
+    <figcaption>&nbsp;</figcaption>
+    {{ end }}
 </figure>
