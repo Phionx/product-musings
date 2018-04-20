@@ -2,6 +2,7 @@
 title: "Lorem Ipsum"
 date: 2017-12-11T15:26:46+01:00
 tags: [ "tag1", "tag2" ]
+draft: true
 subscribe: true
 comments: true
 share: true
