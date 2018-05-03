@@ -33,7 +33,7 @@ galite('send', 'pageview');
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:description" content="{{ .Summary }}" />
 {{ if isset .Params "image" }}
-<meta property="og:image" content="{{ .Site.BaseURL }}img{{ .Page.URL }}{{ .Params.image }}.full.jpg" />
+<meta property="og:image" content="{{ .Site.BaseURL }}img{{ .Page.URL }}{{ .Params.image }}" />
 {{ end }}
 {{ else }}
 <title>Product musings by Jiri De Jagere</title>

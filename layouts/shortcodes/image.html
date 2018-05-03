@@ -2,11 +2,27 @@
 {{ $name := .Get "name" }}
 {{ $alt := .Get "alt" }}
 {{ $caption := .Get "caption" }}
+{{ $ext := .Get "ext" }}
+{{ $lazy := .Get "lazy" }}
 
 <figure>
-    <a href="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.full.jpg" class="progressive replace">
-        <img src="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.tiny.jpg" class="preview" alt="{{ $alt }}" />
+    {{ if $lazy }}
+    {{ if $ext }}
+    <a href="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.full.{{ $ext }}" class="progressive replace">
+        <img src="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.tiny.{{ $ext }}" class="preview" alt="{{ $alt }}" />
     </a>
+    {{ else }}
+    <a href="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.full.jpeg" class="progressive replace">
+       <img src="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.tiny.jpeg" class="preview" alt="{{ $alt }}" />
+    </a>
+    {{ end }}
+    {{ else }}
+    {{ if $ext }}
+    <img src="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.{{ $ext }}" class="responsive" alt="{{ $alt }}" />
+    {{ else }}
+    <img src="{{ .Site.BaseURL }}img{{ $link }}{{ $name }}.jpeg" class="responsive" alt="{{ $alt }}" />
+    {{ end }}
+    {{ end }}
     {{ if $caption }}
     <figcaption>{{ $caption }}</figcaption>
     {{ else }}

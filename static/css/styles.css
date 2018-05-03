@@ -103,6 +103,7 @@ nav {
 
 nav ul {
     list-style: none;
+    padding-left: 0px;
 }
 
 nav li {
@@ -192,6 +193,7 @@ strong, b {
 ul {
     list-style-type: circle;
     list-style-position: outside;
+    padding-left: 24px;
 }
 
 h1, h2, h3 {
@@ -356,6 +358,12 @@ blockquote {
 }
 
 /* Image styling */
+.responsive {
+    width: 100%;
+    max-width: 624px;
+    height: auto;
+}
+
 figure {
     padding: 12px;
 }
@@ -389,7 +397,8 @@ footer {
 }
 
 main {
-    flex: 1;  
+    flex: 1; 
+    max-width: 624px; 
 }
 
 /* Device styles */
@@ -452,6 +461,10 @@ main {
 }
 
 @media screen and (max-width: 420px) {
+    ul {
+        padding-left: 0px;    
+    }
+
     .pagination .button {
         box-sizing: border-box;
         text-align: center;
