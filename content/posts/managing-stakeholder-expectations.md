@@ -9,7 +9,7 @@ share: true
 image: "keep-your-eye-on-the-target.png"
 ---
 
-Managing stakeholders - and their expectations - is in my opinion the toughest part of being a product manager. It is a careful balancing act. You want everyone to be positive about the product and its roadmap. But you also want to make sure that expectations are realistic.
+Managing stakeholders - and their expectations - is in my opinion the toughest part of being a product manager. It is a careful balancing act. You want everyone to be positive about the product and its roadmap. But you also want to make sure that expectations are realistic. 
 
 <!--more-->
 
