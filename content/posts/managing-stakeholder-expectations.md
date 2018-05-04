@@ -1,5 +1,5 @@
 ---
-title: "Managing expectations - the product strategy and vision rule"
+title: "Managing expectations - product strategy and vision rule"
 date: 2018-01-11T15:26:46+01:00
 tags: [ "prodmgmt" ]
 draft: false
@@ -9,7 +9,7 @@ share: true
 image: "keep-your-eye-on-the-target.png"
 ---
 
-Managing stakeholders - and their expectations - is the toughest part of being a product manager. It is a careful balancing act. You want everyone to be positive about the product and its roadmap. But you also want to make sure that expectations are realistic.
+Managing stakeholders - and their expectations - is in my opinion the toughest part of being a product manager. It is a careful balancing act. You want everyone to be positive about the product and its roadmap. But you also want to make sure that expectations are realistic.
 
 <!--more-->
 
@@ -17,21 +17,19 @@ Managing stakeholders - and their expectations - is the toughest part of being a
 
 As a product manager you work with many stakeholders: customers, sales, support, professional services, finance, ... All have different views and need different things.
 
+{{< quote >}}
+Managing stakeholders is a lot like walking a tightrope while balancing expectations and budget. #prodmgmt
+{{< /quote >}}
+
 - "If only we had this, we would beat every competitor every time!" ~ presales
 - "Commitment on delivering this makes or breaks my deal!" ~ sales
 - "It's only a small thing, but it makes a big difference for me!" ~ customer
 - "If we don't do this, the customer will go away!" ~ support
 - "We need to reduce COGS to improve margins!" ~ finance
 
-<!--
-{{< image name="walk-the-tightrope" ext="png" alt="managing customer expectations is like walking the tightrope" >}}
--->
-
-{{< quote >}}
-Managing stakeholders is a lot like walking a tightrope while balancing expectations and budget.
-{{< /quote >}}
-
 Your inbox is filled with feature requests. Most make perfect sense. You have endless ways to spend budget, but there's only so much to go around. You can't ever give everyone what they want, so you'll need to manage expectations. It's like walking the tightrope towards your product vision while balancing stakeholder expectations and available budget.
+
+{{< image name="walk-the-tightrope" ext="png" alt="managing customer expectations is like walking the tightrope" >}}
 
 ## Keep your eye on the target
 
