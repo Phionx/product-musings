@@ -27,7 +27,7 @@ But there is a dark side to it too. The boundaries between work and life start t
 
 To make working from home work for you, you need to separate your work from the rest of your life. Here are a few tips and tricks I picked up over time that work well for me:
 
-1. Have a separate space, with a door that you can close, to work in. This has three big benefits. First, you'll have some piece and quiet for working while other family members are at home. Secondly, when you get into that room your mind will be focused on work, not on doing those dirty dishes or mowing the lawn. Lastly, leaving the room and closing the door behind you has a similar mental effect as leaving the company office. You're done with work for the day and can focus on familiy life ...
+1. Have a separate space, with a door that you can close, to work in. This has three big benefits. First, you'll have some piece and quiet for working while other family members are at home. Secondly, when you get into that room your mind will be focused on work, not on doing those dirty dishes or mowing the lawn. Lastly, leaving the room and closing the door behind you has a similar mental effect as leaving the company office. You're done with work for the day and can focus on family life ...
 2. Make clear arrangements with yourself and your family. If the door is closed, you're not to be bothered for folding linnen, running a quick errant or looking after the kids. It's as if you're not there. The temptation to ask something from you, or for you to do something for someone else is big. But letting yourself get distracted from work implies getting back into it later.
 3. Not having to drive to the office to work, also implies that your home has become your office. There is a good chance you're never done. Set boundaries to your working hours to protect yourself and be disciplined about it. It's too easy to get behind the computer for a *few more minutes* and do a little more work. Everyone needs down time and, if you work where you live, you need to be very explicit about when is down time. 
 
@@ -49,9 +49,9 @@ So you have to create some rules for yourself to ensure that you don't let yours
 
 For the first year or so, I worked exclusively from home. I went out of the house to run errants or for sports. That was it! The only *real people* I talked to were my wife and kids. Ok, I'm exaggerating, but honestly after a year it really felt like that. 
 
-We all need social interactions. Even introverts, like myself, have the need to get out and see other people. To have conversations about something other than house chores, the next vacation destination or how the kids' day at school was.
+We all need social interactions. Even introverts, like myself, have the need to get out and see other people. To have conversations about something other than household chores, the next vacation destination or how the kids' day at school was.
 
-There are different ways to achieve this. On a sunny day you can go to the park and work there. You can take a trip to the coffeeshop and work there. My solution was to get a desk at a coworking place. I go there two to three times a week. It is a bike ride away, which means I get a little workout and my head is clear. There are other people there who work in different places and industries, but that are all in a similar situation as you are. You'll love the atmosphere of productivity mixed with social activities. 
+There are different ways to achieve this. On a sunny day you can go to the park and work there. You can take a trip to the coffeeshop and work there. My solution was to get a desk at a coworking place. I go there two to three times a week. It is a bike ride away, which means I get a little workout and my head is clear. There are other people there who work in different businesses and industries, but that are all in a similar situation as you are. You'll love the atmosphere of productivity mixed with social activities. 
 
 ## Summary
 
