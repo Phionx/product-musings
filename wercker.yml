@@ -7,7 +7,6 @@ build:
 
 deploy:
   steps:
-    - samueldebruyn/minify
     - s3sync:
         key-id: $KEY
         key-secret: $SECRET
