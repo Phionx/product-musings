@@ -301,6 +301,36 @@ blockquote {
     float: right;
 }
 
+/* Code block styling */
+.highlight {
+    padding: 4px 4px 4px 4px;
+}
+
+.highlight-wrapper {
+    font-family: Monaco, Menlo, Consolas, monospace;
+    font-size: 14px;
+    border: 1px solid #157EAC;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.highlight-before {
+    background-color: #157EAC;
+    color: #fff;
+    padding: 2px 0px 2px 8px;
+}
+
+.highlight-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+pre {
+    overflow-x: scroll;
+}
+
 /* Subscription styling */
 
 #subscribe {

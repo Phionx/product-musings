@@ -11,6 +11,9 @@ enableEmoji = true
 
 preserveTaxonomyNames = true
 
+#pygmentsUseClasses=true
+pygmentsStyle = "xcode"
+
 [permaLinks]
   post = "/:section/:slug/"
 

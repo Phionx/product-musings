@@ -1,5 +1,5 @@
 ---
-date: "2018-02-25T11:40:05+01:00"
+date: "2018-07-25"
 title: "Sick and tired of terminal screenshots?"
 tags: [ "hugo", "techblog" ]
 subscribe: true
