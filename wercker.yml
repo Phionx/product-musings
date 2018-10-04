@@ -4,9 +4,11 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.48" 
+        flags: "--minify"
 
 deploy:
   steps:
+    - samueldebruyn/minify
     - s3sync:
         key-id: $KEY
         key-secret: $SECRET
