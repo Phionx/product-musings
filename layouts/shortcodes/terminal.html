@@ -15,12 +15,10 @@
   </div>
   <div class="terminal">
     <ul>
-      {{ "<!-- htmlmin:ignore -->" | safeHTML }}  
       {{ range split .Inner "\n" }}
       {{ $line := replace . " " "&nbsp;" }}
       <li>{{ printf "%s" $line | safeHTML }}</li>
       {{ end }}
-      {{ "<!-- htmlmin:ignore -->" | safeHTML }}
     </ul>
   </div>
 </div>
