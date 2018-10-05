@@ -7,6 +7,9 @@ subscribe: true
 comments: true
 share: true
 image: "macos-terminal.png"
+aliases: [
+    "/post/how-to-keep-blog-posts-with-large-code-blocks-readable/"
+]
 ---
 
 Syntax highlighting with [highlight.js](https://highlightjs.org) is great! But if you want to give your readers working code, the code blocks can get really big. Big code blocks mess up reading flow.  
