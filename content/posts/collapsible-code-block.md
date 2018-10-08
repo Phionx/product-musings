@@ -22,9 +22,9 @@ You don't want that, now do you? :pensive:
 
 A solution is to make the code blocks collapsible. By default a code block that is longer than a given number of lines will be truncated and a "more" link is added. 
 
-When you click the more link, the code block folds open to reveal the entire code. A "less" link provides you a way to collapse the code block again when you're ready to read on. 
+When you click the more link, the code block folds open to reveal the entire code. A "less" link provides you a way to collapse the code block again when you're ready to read on.
 
-You can find a little live demonstration right below. 
+You can find a little live demonstration right below.
 
 A first code block.
 
