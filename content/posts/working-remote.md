@@ -3,6 +3,7 @@ title: "Six years of working remote"
 date: 2018-10-15
 draft: false
 tags: [ "remote" ]
+image: "working-remote.jpeg"
 subscribe: true
 comments: true
 share: true
