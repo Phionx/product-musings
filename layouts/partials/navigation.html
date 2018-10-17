@@ -9,9 +9,9 @@
         {{ if .Page.Params.share }}
         <li class="share">Share</li>
         
-        <li><a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}&summary={{ .Summary | plainify }}"><i class="fab fa-linkedin fa-fw"></i><span class="nav-text">&nbsp;LinkedIn</span></a></li>
-        <li><a href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}"><i class="fab fa-twitter fa-fw"></i><span class="nav-text">&nbsp;Twitter</span></a></li>
-        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"><i class="fab fa-facebook fa-fw"></i><span class="nav-text">&nbsp;Facebook</span></a></li>
+        <li><a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}&summary={{ .Summary | plainify }}" target="_blank"><i class="fab fa-linkedin fa-fw"></i><span class="nav-text">&nbsp;LinkedIn</span></a></li>
+        <li><a href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}" target="_blank"><i class="fab fa-twitter fa-fw"></i><span class="nav-text">&nbsp;Twitter</span></a></li>
+        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank"><i class="fab fa-facebook fa-fw"></i><span class="nav-text">&nbsp;Facebook</span></a></li>
         <li><a href="mailto:?subject={{ .Title }}&body={{ .Title }}%0D%0A%0D%0A{{ .Summary | plainify }}%0D%0A{{ .Permalink }}" target="_top"><i class="fas fa-envelope-square fa-fw"></i><span class="nav-text">&nbsp;Email</span></a></li>
         {{ end }}
     </ul>
