@@ -6,7 +6,7 @@ highlight: true
 subscribe: true
 comments: true
 share: true
-image: "macos-terminal.png"
+image: "collapsible-code.png"
 aliases: [
     "/post/how-to-keep-blog-posts-with-large-code-blocks-readable/"
 ]
