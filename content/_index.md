@@ -2,7 +2,7 @@
 
 I’m Jiri. I'm a techie and **dad of four little wonders**. My sanity requires coffee, mountains, sports and fiddling with tech. 
 
-Long ago I started my career as a software engineer. I've ventured into many different roles, but today I **lead a team of product managers and solution architects**. 
+Long ago I started my career as a software engineer. I've ventured into many different roles, but today I **lead a team of product managers**. We're building state of the art cloud applications. 
 
 Building software products is interesting and challenging! You get to work with many people from different backgrounds and industries. Some are colleagues. Some are customers. **Some understand technology. Many don’t.**
 
